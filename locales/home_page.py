@@ -1,0 +1,13 @@
+search_data = {'en': {"oneway": "One-way",
+                      "departure_short_rtm": "RTM",
+                      "departure_long_rtm": "Rotterdam, Netherlands",
+                      "arrival_short_rtm": "MAD",
+                      "arrival_long_rtm": "Madrid, Spain",
+                      },
+               'nl': {"oneway": "Enkele reis",
+                      "departure_short_rtm": "RTM",
+                      "departure_long_rtm": "Rotterdam, Nederland",
+                      "arrival_short_rtm": "MAD",
+                      "arrival_long_rtm": "Madrid, Spanje",
+                      },
+               }
