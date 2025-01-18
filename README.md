@@ -1,23 +1,24 @@
 # C teleport test assignment
 Creating testing framework for website kiwi.com. 
-## Sett up environment
-Clone the project from GitHub
+## Set up environment
+Clone the project from GitHub:
 ```
 git clone https://github.com/zandrei83/cteleport.git
 ```
-Change working  directory
+Change working  directory:
 ```
 cd cteleport
 ```
-Create venv
+Create and activate virtual environment:
 ```
 python -m venv venv
+venv\Scripts\activate
 ```
-Install dependencies
+Install project dependencies:
 ```
 pip install -r requirements.txt
 ```
-Install Playwright
+Install the required browsers:
 ```
 playwright install
 ```
