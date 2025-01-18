@@ -6,5 +6,10 @@ playwright install
 
 
 Running tests 
-pytest --headed -v -s
+
+pytest --headed -v -s --language=en
+
+
+pytest --headed -v -s --language=nl
+
 
