@@ -4,7 +4,7 @@ from playwright.async_api import Page
 
 def pytest_addoption(parser):
     parser.addoption('--language', action='store', default='en',
-                     help="Specify language: en")
+                     help="Specify language: en, nl")
 
 
 @pytest.fixture()
