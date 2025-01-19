@@ -33,3 +33,9 @@ For Dutch:
 ```
 pytest --headed -v -s --language=nl
 ```
+
+To run one particular test from test suite:
+
+```
+pytest --headed -v -s --language=en .\tests\test_basic_search.py::TestBasicSearch::test_basic_search_not_logged
+```
